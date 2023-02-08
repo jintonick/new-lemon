@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   background-color: white;
-  min-width: 1440px;
+  /* min-width: 1440px; */
   min-height: 2829px;
   display: grid;
   justify-content: center;
@@ -45,7 +45,9 @@
 }
 
 .header{
+  display: flex;
   width: 1920px;
+  justify-content: center;
   min-height: 406px;
   background-color: #495E57;
 }
@@ -66,4 +68,24 @@
 .footer{
   min-height: 417px;
   background-color: #333333;
+}
+
+.header2 {
+  display: flex;
+  width: 1440px;
+}
+
+.subdiv1 {
+  text-align: start;
+  font-size: large;
+  position: static;
+}
+
+.subdiv2 {
+  border: 0px solid;
+  border-radius: 50px;
+  position: absolute;
+  display: flex;
+  left: 70vw;
+  bottom: 55vh;
 }
