@@ -1,0 +1,35 @@
+.maindiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4em;
+    min-width: 100%;
+    font-family: Markazi;
+    grid-template-rows: 1fr;
+    width: 1440px;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@font-face {
+    font-family: 'Markazi Text';
+    src: url(/fonts/MarkaziText.ttf);
+}
+
+.links{
+    display: flex;
+}
+
+.image {
+    display: flex;
+    height: 60%;
+}
+
+#about{
+    text-decoration: none;
+    color: black;
+}
