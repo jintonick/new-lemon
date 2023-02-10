@@ -1,6 +1,6 @@
 import React from "react";
 import '../App.css';
-import { HStack, Button, Image } from "@chakra-ui/react";
+import { HStack, Button, Image, Box } from "@chakra-ui/react";
 
 function Header() {
     return (
@@ -9,13 +9,13 @@ function Header() {
                 <div className="subdiv1">
                     <h1>Little Lemon</h1>
                     <h2>Chicago</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <HStack>
-                        <Button colorScheme='blue'>Reserve a Table</Button>
-                    </HStack>
+                    <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist </p>
+                    <button colorScheme='blue' className="button1">Reserve a Table</button>
                 </div>
             <div className="subdiv2">
-                <Image  alt="heroimg" src="https://i.postimg.cc/YjyZph5n/restauranfood.jpg" width={250} />
+                <Box boxSize='400px'>
+                    <Image  alt="heroimg" src="https://i.ibb.co/x1wzDKy/restauranfood2.jpg" className="image1"/>
+                </Box>
             </div>
             </div>
         </div>

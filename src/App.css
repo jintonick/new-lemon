@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   background-color: white;
-  /* min-width: 1440px; */
+  max-width: 100%;
   min-height: 2829px;
   display: grid;
   justify-content: center;
@@ -72,20 +72,58 @@
 
 .header2 {
   display: flex;
-  width: 1440px;
+  width: 63vw;
 }
 
 .subdiv1 {
   text-align: start;
   font-size: large;
   position: static;
+  width: 20vw;
+  font-family: 'Markazi Text';
+  src: url(/fonts/MarkaziText.ttf);
+  
 }
 
 .subdiv2 {
-  border: 0px solid;
-  border-radius: 50px;
   position: absolute;
   display: flex;
-  left: 70vw;
-  bottom: 55vh;
+  left: 61vw;
+  top: 19vh;
+  width: 40vw;
+}
+
+.image1{
+  border: 0px solid;
+  border-radius: 2%;
+}
+
+.button1 {
+  background-color: #F4CE14;
+  color: black;
+  border: 0px solid black;
+  border-radius: 15px;
+  width: 15vw;
+  height: 5vh;
+  font-size: larger;
+  font-family: 'Markazi Text';
+  src: url(/fonts/MarkaziText.ttf);
+  margin-top: 8vh;
+
+}
+
+.subdiv1 h1{
+  height: 6vh;
+  font-size: 4em;
+  color: #f4cf14b4;
+}
+
+.subdiv1 h2{
+  font-size: 2.5em;
+  color: rgb(245, 244, 244);
+}
+
+.subdiv1 p{
+  font-size: 1.5em;
+  color: rgb(245, 244, 244);
 }

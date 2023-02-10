@@ -4,18 +4,21 @@ import Main from './Components/Main';
 import Header from './Components/Header';
 import Reviews from './Components/Reviews'
 import About from './Components/About'
+import { ChakraProvider } from "@chakra-ui/react";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-      <Header/>
-      <Main/>
-      <Reviews/>
-      <About/>
-      <Footer/>
-    </div>
+    <ChakraProvider>
+      <div className="App">
+        <Nav />
+        <Header/>
+        <Main/>
+        <Reviews/>
+        <About/>
+        <Footer/>
+      </div>
+    </ChakraProvider>
   );
 }
 
