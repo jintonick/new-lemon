@@ -1,0 +1,85 @@
+.cardheading{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    justify-content: space-between;
+    font-family: 'Markazi Text';
+    src: url(/fonts/MarkaziText.ttf)
+}
+
+
+#menu-section > div > div.cardsec > div:nth-child(1){
+    text-align: start;
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text';
+    src: url(/fonts/MarkaziText.ttf)
+}
+
+#menu-section > div > div.cardsec > div:nth-child(2){
+    text-align: start;
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text';
+    src: url(/fonts/MarkaziText.ttf)
+}
+
+#menu-section > div > div.cardsec > div:nth-child(3){
+    text-align: start;
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text';
+    src: url(/fonts/MarkaziText.ttf)
+}
+
+.headingname{
+    font-family: 'Markazi Text';
+    src: url(/fonts/MarkaziText.ttf)
+}
+
+.cardimage {
+    position: relative;
+    margin: 0px;
+    padding: 0%;
+    border: 0px solid;
+    border-radius: 10px 10px 0% 0%;
+}
+
+.discription{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 1.2em;
+    color: #333333;
+}
+
+#menu-section > div > div.cardsec > div:nth-child(3) > div.chakra-card__body.css-jintet > img{
+    height: 53%;
+    width: 100%;
+}
+
+#menu-section > div > div.cardsec > div:nth-child(1) > div.chakra-card__body.css-jintet > div.chakra-stack.cardheading.css-sqm8c3 > h2{
+    font-size: 1.7em;
+    font-family: 'Markazi Text';
+    src: url(/fonts/MarkaziText.ttf)
+}
+
+#menu-section > div > div.cardsec > div:nth-child(2) > div.chakra-card__body.css-jintet > div.chakra-stack.cardheading.css-sqm8c3 > h2{
+    font-size: 1.7em;
+    font-family: 'Markazi Text';
+    src: url(/fonts/MarkaziText.ttf)
+}
+
+#menu-section > div > div.cardsec > div:nth-child(3) > div.chakra-card__body.css-jintet > div.chakra-stack.cardheading.css-sqm8c3 > h2{
+    font-size: 1.7em;
+    font-family: 'Markazi Text';
+    src: url(/fonts/MarkaziText.ttf)
+}
+
+#menu-section > div > div.cardsec > div:nth-child(1) > div.chakra-card__body.css-jintet > div.chakra-stack.cardheading.css-sqm8c3 > p{
+    color: #EE9972;
+}
+
+#menu-section > div > div.cardsec > div:nth-child(2) > div.chakra-card__body.css-jintet > div.chakra-stack.cardheading.css-sqm8c3 > p{
+    color: #EE9972;
+}
+
+#menu-section > div > div.cardsec > div:nth-child(3) > div.chakra-card__body.css-jintet > div.chakra-stack.cardheading.css-sqm8c3 > p{
+    color: #EE9972;
+}
+

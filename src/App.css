@@ -54,6 +54,9 @@
 
 .main{
   min-height: 717px;
+  max-height: 717px;
+  display: flex;
+  justify-content: center;
 }
 
 .reviews{
@@ -82,20 +85,19 @@
   width: 20vw;
   font-family: 'Markazi Text';
   src: url(/fonts/MarkaziText.ttf);
-  
 }
 
 .subdiv2 {
   position: absolute;
   display: flex;
-  left: 61vw;
+  left: 60.7vw;
   top: 19vh;
   width: 40vw;
 }
 
 .image1{
   border: 0px solid;
-  border-radius: 2%;
+  border-radius: 4%;
 }
 
 .button1 {
@@ -105,7 +107,7 @@
   border-radius: 15px;
   width: 15vw;
   height: 5vh;
-  font-size: larger;
+  font-size: 1.5em;
   font-family: 'Markazi Text';
   src: url(/fonts/MarkaziText.ttf);
   margin-top: 8vh;
@@ -126,4 +128,46 @@
 .subdiv1 p{
   font-size: 1.5em;
   color: rgb(245, 244, 244);
+}
+
+.cardsec {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 0vh;
+
+}
+
+.main2 {
+  width: 63vw;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.textsec {
+  display: flex;
+  height: 18vh;
+  justify-content: space-between;
+}
+
+.button2 {
+  background-color: #F4CE14;
+  color: black;
+  border: 0px solid black;
+  border-radius: 15px;
+  width: 10vw;
+  height: 5vh;
+  font-size: 1.5em;
+  font-family: 'Markazi Text';
+  src: url(/fonts/MarkaziText.ttf);
+  margin-top: 10vh;
+}
+
+.textsec h1 {
+  font-family: 'Markazi Text';
+  src: url(/fonts/MarkaziText.ttf);
+  font-size: 5em;
+  margin-top: 7vh;
 }

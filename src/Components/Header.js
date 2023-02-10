@@ -1,6 +1,6 @@
 import React from "react";
 import '../App.css';
-import { HStack, Button, Image, Box } from "@chakra-ui/react";
+import {Image, Box } from "@chakra-ui/react";
 
 function Header() {
     return (
