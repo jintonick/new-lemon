@@ -2,8 +2,6 @@ import React from "react";
 import '../../App.css'
 import '../AditionalCss/card.css'
 import { Card, CardBody, Image, Stack, Heading, Text, CardFooter, ButtonGroup, Button, HStack } from "@chakra-ui/react";
-import {FontAwesomeIcon} from  '@fortawesome/fontawesome-svg-core'
-
 
 
 const CardSec = (props) => {
@@ -28,7 +26,6 @@ const CardSec = (props) => {
                     <Button variant='ghost' colorScheme='black' fontSize={20}>
                         Order a delivery
                     </Button>
-                    
                 </ButtonGroup>
             </CardFooter>
         </Card>

@@ -8,34 +8,6 @@
   align-items: center;
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-} */
-
-
-
 .navbar{
   min-height: 126px;
   background-color: white;
@@ -62,11 +34,6 @@
 .reviews{
   background-color: #b9b9b9;
   min-height: 590px;
-}
-
-.footer{
-  min-height: 417px;
-  background-color: #333333;
 }
 
 .header2 {
@@ -208,6 +175,7 @@
 }
 
 .aboutcontent {
+  color: #476143;
   font-family: 'Markazi Text';
   src: url(/fonts/MarkaziText.ttf);
   display: flex;
@@ -230,4 +198,45 @@
 
 .aboutcontent p {
   font-size: 1.5em;
+}
+
+.footer{
+  min-height: 417px;
+  background-color: #333333;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.image4 {
+  height: 25vh;
+}
+
+.footer2 {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 63vw;
+  font-family: 'Markazi Text';
+  src: url(/fonts/MarkaziText.ttf);
+}
+
+.footer3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer4 {
+  display: flex;
+  color: rgb(245, 244, 244);
+  font-size: 1.1em;
+}
+
+.footerheader {
+  font-size: 2em;
+}
+
+.footerlink {
+  color: rgb(245, 244, 244);
 }

@@ -91,9 +91,7 @@ function Reviews() {
           <Stack spacing={0} align={'center'}>
             <Heading className="testim">What our customers say!</Heading>
           </Stack>
-          <Stack
-            direction={{ base: 'column', md: 'row' }}
-            spacing={{ base: 10, md: 4, lg: 10 }}>
+          <Stack direction={{ base: 'column', md: 'row' }} spacing={{ base: 10, md: 4, lg: 10 }}>
             <Testimonial>
               <TestimonialContent>
                 <TestimonialHeading className="testim1">Responsive staff</TestimonialHeading>
