@@ -64,10 +64,6 @@
   min-height: 590px;
 }
 
-.about{
-  min-height: 579px;
-}
-
 .footer{
   min-height: 417px;
   background-color: #333333;
@@ -170,4 +166,68 @@
   src: url(/fonts/MarkaziText.ttf);
   font-size: 5em;
   margin-top: 7vh;
+}
+
+.css-iqyly9 {
+  height: 19vh;
+}
+
+.raiting {
+  display: flex;
+}
+
+.about{
+  display: flex;
+  min-height: 579px;
+  justify-content: center;
+  /* background-color: #EDEFEE; */
+}
+
+.about2 {
+  display: flex;
+  width: 63vw;
+  justify-content: space-between;
+}
+
+.image2 {
+  height: 30vh;
+  top: 72%;
+  right: 24%;
+  position: absolute;
+  border: 0px solid;
+  border-radius: 5%;
+}
+
+.image3 {
+  position: absolute;
+  right: 19%;
+  top: 66%;
+  height: 30vh;
+  border: 0px solid;
+  border-radius: 5%;
+}
+
+.aboutcontent {
+  font-family: 'Markazi Text';
+  src: url(/fonts/MarkaziText.ttf);
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  text-align: start;
+}
+
+.aboutimage {
+  display: flex;
+}
+
+.aboutcontent h1 {
+  font-size: 5em;
+}
+
+.aboutcontent h2 {
+  font-size: 3em;
+}
+
+.aboutcontent p {
+  font-size: 1.5em;
 }
