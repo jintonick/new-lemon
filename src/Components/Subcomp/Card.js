@@ -1,8 +1,9 @@
 import React from "react";
 import '../../App.css'
 import '../AditionalCss/card.css'
-import { Card, CardBody, Image, Stack, Heading, Text, CardFooter, ButtonGroup, Button, HStack } from "@chakra-ui/react";
-
+import { Card, CardBody, Image, Stack, Heading, Text, CardFooter, ButtonGroup, Button, HStack, } from "@chakra-ui/react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBicycle } from "@fortawesome/free-solid-svg-icons";
 
 const CardSec = (props) => {
     return (
@@ -21,12 +22,13 @@ const CardSec = (props) => {
                     <Text className="discription">{props.discription}</Text>
                 </Stack>
             </CardBody>
-            <CardFooter>
+            <CardFooter className="iconpos">
                 <ButtonGroup spacing='2'>
-                    <Button variant='ghost' colorScheme='black' fontSize={20}>
+                    <Button variant='ghost' colorScheme='black' fontSize={23}>
                         Order a delivery
                     </Button>
                 </ButtonGroup>
+                <FontAwesomeIcon icon={faBicycle} size="2x"/>
             </CardFooter>
         </Card>
     )

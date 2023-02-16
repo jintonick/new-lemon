@@ -1,6 +1,7 @@
 import React from "react";
 import '../App.css';
 import {Image, Box } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
@@ -10,7 +11,9 @@ function Header() {
                     <h1>Little Lemon</h1>
                     <h2>Chicago</h2>
                     <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist </p>
-                    <button colorScheme='blue' className="button1">Reserve a Table</button>
+                    <Link to='/booking'>
+                        <button colorScheme='blue' className="button1">Reserve a Table</button>
+                    </Link>
                 </div>
             <div className="subdiv2">
                 <Box boxSize='400px'>

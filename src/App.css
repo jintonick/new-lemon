@@ -1,8 +1,8 @@
 .App {
   text-align: center;
   background-color: white;
-  max-width: 100%;
-  min-height: 2829px;
+  max-width: 1920px;
+  min-height: 100%;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -32,7 +32,7 @@
 }
 
 .reviews{
-  background-color: #b9b9b9;
+  background-color: #ffffff;
   min-height: 590px;
 }
 
@@ -147,7 +147,7 @@
   display: flex;
   min-height: 579px;
   justify-content: center;
-  /* background-color: #EDEFEE; */
+  background-color: #ffffff;
 }
 
 .about2 {
@@ -239,4 +239,20 @@
 
 .footerlink {
   color: rgb(245, 244, 244);
+}
+
+
+
+.icon {
+  display: flex;
+}
+
+.iconpos {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.css-uoo7ck {
+  display: flex;
 }
