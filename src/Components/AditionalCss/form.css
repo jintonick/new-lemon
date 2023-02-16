@@ -22,7 +22,7 @@
 
 .form input {
     border: 1px solid black;
-    padding: 2%;
+    padding: 1.5%;
     border-radius: 0.2em;
     font-size: 1.3em;
 }
@@ -30,6 +30,7 @@
 .form select{
     border: 1px solid black;
     border-radius: 0.2em;
+    padding: 2%;
     font-size: 1.3em;
 }
 
